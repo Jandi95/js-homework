@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "live-server . --port=3000 --host=localhost --no-browser",
+    "format": "prettier . --check"
+  },
+  "dependencies": {
+    "@squoosh/cli": "^0.7.1",
+    "live-server": "^1.2.2",
+    "sharp": "^0.34.2"
+  }
+}
