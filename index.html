@@ -1,18 +1,78 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>1주차 과제</title>
-  <script src="./work/write-variables-constant.js"></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1주차 과제</title>
+    <link rel="stylesheet" href="common/css/base.css" />
+    <style>
+      body {
+        font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+        background-color: #121212;
+        color: #fff;
+        padding: 50px;
+
+        h1 {
+          font-size: 32px;
+          background-color: #212121;
+          padding: 20px;
+          font-weight: 300;
+          border-radius: 8px 8px 0 0;
+          border-bottom: 2px dashed #121212;
+        }
+
+        .index-list {
+          padding: 20px;
+          background-color: #212121;
+          border-radius: 0 0 8px 8px;
+
+          > li {
+            margin-bottom: 20px;
+            border-radius: 8px;
+
+            h2 {
+              font-size: 16px;
+              background-color: #121212;
+              display: inline-block;
+              padding: 7px 15px;
+              border-radius: 4px;
+            }
+
+            .link-list {
+              margin-top: 10px;
+
+              > li {
+                margin-bottom: 10px;
+
+                > a {
+                  font-size: 20px;
+                  color: rgb(64, 109, 255);
+                }
+              }
+            }
+          }
+        }
+      }
+    </style>
+  </head>
   <body>
-    <h1>JavaScript 과제 저장소</h1>
-    <h2>1주차</h2>
-    <ul>
-      <li><a href="./work/write-variables-constant.js">변수, 상수 작성 과제</a></li>
-      <li><a href="./work/write-function.js">함수 작성 과제</a></li>
-      <li><a href="./reminisce/week1.md">1주차 회고</a></li>
+    <h1>조장원 JavaScript 과제 저장소</h1>
+    <ul class="index-list">
+      <li>
+        <h2>1주차</h2>
+        <ul class="link-list">
+          <li><a href="./work/week1/write-variables-constant.js">변수, 상수 작성 과제</a></li>
+          <li><a href="./work/week1/write-function.js">함수 작성 과제</a></li>
+          <li><a href="./reminisce/week1.md">1주차 회고</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2>3주차</h2>
+        <ul class="link-list">
+          <li><a href="./work/week3/index.html">Carousel Component 제작</a></li>
+          <li><a href="./reminisce/week3.md">3주차 회고</a></li>
+        </ul>
+      </li>
     </ul>
   </body>
 </html>
