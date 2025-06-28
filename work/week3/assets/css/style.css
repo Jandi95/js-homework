@@ -1,8 +1,6 @@
 @import url("/common/css/base.css");
 
 :root {
-  --carousel-width: 100%;
-
   --black: #000000;
   --black-light: #333333;
   --gray: #000000a7;
@@ -93,20 +91,28 @@ body {
         outline-offset: -1px;
       }
     }
+
+    .status {
+      display: flex;
+      align-items: center;
+
+      .current {
+        width: 13px;
+      }
+    }
   }
 
   .carousel-container {
     position: relative;
-    padding: 3px 0;
     overflow: hidden;
     border-inline: 24px solid #fff;
 
     .carousel-list {
+      --carousel-width: 100%;
       --gap: 16px;
 
       width: var(--carousel-width);
       position: relative;
-      height: min-content;
       display: flex;
 
       .carousel-item {
