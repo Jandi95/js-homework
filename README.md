@@ -10,5 +10,6 @@
 
 ## 3주차
 
-- [변수, 상수 작성 과제](./work/week3/index.html)
+- [Carousel Componet](./work/week3/index.html)
+- [Carousel 배포 링크](https://jandi-js-homework.netlify.app/work/week3/)
 - [3주차 회고](./reminisce/week3.md)
