@@ -13,3 +13,8 @@
 - [Carousel Componet](./work/week3/index.html)
 - [Carousel 배포 링크](https://jandi-js-homework.netlify.app/work/week3/)
 - [3주차 회고](./reminisce/week3.md)
+
+## 4주차
+
+- [Landing Banner Animation](./work/week4/index.html)
+- [4주차 회고](./reminisce/week4.md)
